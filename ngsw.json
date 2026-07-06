@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1783344709350,
+  "index": "/exercise-timer/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/exercise-timer/favicon.ico",
+        "/exercise-timer/index.html",
+        "/exercise-timer/main-JQY7NIQR.js",
+        "/exercise-timer/manifest.webmanifest",
+        "/exercise-timer/styles-6TRLZUWU.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/exercise-timer/icons/icon-128x128.png",
+        "/exercise-timer/icons/icon-144x144.png",
+        "/exercise-timer/icons/icon-152x152.png",
+        "/exercise-timer/icons/icon-192x192.png",
+        "/exercise-timer/icons/icon-384x384.png",
+        "/exercise-timer/icons/icon-512x512.png",
+        "/exercise-timer/icons/icon-72x72.png",
+        "/exercise-timer/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/exercise-timer/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/exercise-timer/icons/icon-128x128.png": "48c56fe1f1a67f5e0ef50a66e0745ca336ae3dff",
+    "/exercise-timer/icons/icon-144x144.png": "8e9c010dba781fc848169f263979273cf27a50e3",
+    "/exercise-timer/icons/icon-152x152.png": "cce79da083fd31465e53b47269a20722ec0e0779",
+    "/exercise-timer/icons/icon-192x192.png": "ee2dc796c5165041bf3a223240514b1a79a93bfb",
+    "/exercise-timer/icons/icon-384x384.png": "01c2e8832ff71233850eec02fbadb7369b8fb0c3",
+    "/exercise-timer/icons/icon-512x512.png": "3149a8fac4a2ca08db2b74feaab9b90f8b312de1",
+    "/exercise-timer/icons/icon-72x72.png": "dd88c59cf6a0693018dd20eb22e5eebaca441404",
+    "/exercise-timer/icons/icon-96x96.png": "3bdc99030f1da12bca9658e485db13c3075c01ab",
+    "/exercise-timer/index.html": "6f93c1dfc3c363501ebf33fb864905ec9ab1f331",
+    "/exercise-timer/main-JQY7NIQR.js": "019517d0ed943bbfdacc4aaa661b2c863cbb6a38",
+    "/exercise-timer/manifest.webmanifest": "b731a541bb6c84d91143ea1b041d9edc96d68f9b",
+    "/exercise-timer/styles-6TRLZUWU.css": "05b49ea2945480be62ce0ff1a8d1987cb6724564"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -1,0 +1,45 @@
+@if (timer.workoutActive()) {
+<div class="flex h-screen flex-col items-center justify-center">
+
+    <h1 class="text-4xl font-bold text-white">
+
+        {{ timer.phaseTitle() }}
+
+    </h1>
+
+    <div class="mt-8 text-8xl font-bold text-white">
+
+        {{ timer.formattedTime() }}
+
+    </div>
+
+    <div class="mt-8 flex gap-4">
+        @if(timer.running()){
+        <button (click)="timer.pause()" class="rounded bg-green-500 px-4 py-2 shadow-2xl">
+            Pause
+        </button>
+        } @else {
+        <button (click)="timer.resume()" class="rounded bg-green-500 px-4 py-2 shadow-2xl">
+            Resume
+        </button>
+        }
+
+
+        <button (click)="timer.cancel()" class="rounded bg-red-400 px-4 py-2 text-white shadow-2xl">
+
+            Cancel
+
+        </button>
+
+    </div>
+    <div>{{ timer.debugMessage() }}</div>
+
+</div>
+} @else {
+<div class="flex flex-col items-center justify-center min-h-screen">
+    <button (click)="timer.startRoutine1()" class="bg-white rounded-full px-6 py-2 hover:bg-amber-200 shadow-2xl
+    mt-5 text-2xl cursor-pointer">Start Routine 1</button>
+    <button (click)="timer.startRoutine2()" class="bg-white rounded-full px-6 py-2 hover:bg-amber-200 shadow-2xl
+     mt-5 text-2xl cursor-pointer">Start Routine 2</button>
+</div>
+}

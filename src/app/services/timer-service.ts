@@ -80,9 +80,9 @@ export class TimerService {
 
     for (let round = 1; round <= 5; round++) {
       // Hip raise phase
-      phases.push({ type: 'Hip Raise', duration: 120, round });
+      phases.push({ type: 'Hip Raise', duration: 130, round });
       phases.push({ type: 'Change', duration: 5, round });
-      phases.push({ type: 'Chest Raise', duration: 120, round });
+      phases.push({ type: 'Chest Raise', duration: 130, round });
       phases.push({ type: 'Change', duration: 5, round });
     }
 
